@@ -7,4 +7,4 @@ return JWT.sign({id},process.env.JWT_SECRET,{
     expiresIn:"30d",
 });
 };
-module.exports = generateToken;
+module.exports = generateToken;;
